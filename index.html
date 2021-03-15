@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        html,
+        body {
+            min-height: 100vh;
+        }
+
+        body {
+            margin: 0;
+            background-color: rgb(169, 176, 179);
+            display: flex;
+            align-items: center;
+        }
+
         canvas {
-            border: 1px solid #DDD;
+            border: 2px solid #FFF;
+            background-color: rgb(32, 41, 63);
             display: block;
             margin: auto;
         }
     </style>
 </head>
+
 <body>
-    <canvas id="canvas" width="640" height="480"></canvas>
+    <canvas id="canvas" width="320" height="566"></canvas>
     <script src="app.js"></script>
 </body>
+
 </html>
